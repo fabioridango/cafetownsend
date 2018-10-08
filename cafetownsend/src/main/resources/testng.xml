@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation cafe townsend web app">
+    <test name="Testing login feature">
+        <!-- parameters  -->
+        <parameter name="validUsername" value="Luke"/>
+        <parameter name="validPassword" value="Skywalker"/>
+        <parameter name="invalidUsername" value="Mike"/>
+        <parameter name="invalidPassword" value="Lander"/>
+        <parameter name="loginUrl" value="http://cafetownsend-angular-rails.herokuapp.com/login"/>
+        <parameter name="webAppUrl" value="http://cafetownsend-angular-rails.herokuapp.com/"/>
+        <parameter name="loggedUrl" value="http://cafetownsend-angular-rails.herokuapp.com/employees"/>
+        <parameter name="employeesUrl" value="http://cafetownsend-angular-rails.herokuapp.com/employees"/>
+        <!-- classes -->
+        <classes>
+           <class name="login.test.LoginInvalidPasswordNoUsernameTest"/>
+           <class name="login.test.LoginInvalidUsernameNoPasswordTest"/>
+           <class name="login.test.LoginInvalidUsernamePasswordTest"/>
+           <class name="login.test.LoginInvalidUsernameValidPasswordTest"/>
+           <class name="login.test.LoginNoUsernamePasswordTest"/>
+           <class name="login.test.LoginValidPasswordNoUsernameTest"/>
+           <class name="login.test.LoginValidUsernameInvalidPasswordTest"/>
+           <class name="login.test.LoginValidUsernameNoPasswordTest"/>
+           <class name="login.test.LoginValidUsernamePasswordTest"/>
+     </classes>
+   </test>
+<test name="Testing employee feature">
+       <!-- parameters  -->
+        <parameter name="validUsername" value="Luke"/>
+        <parameter name="validPassword" value="Skywalker"/>
+        <parameter name="loginUrl" value="http://cafetownsend-angular-rails.herokuapp.com/login"/>
+        <parameter name="webAppUrl" value="http://cafetownsend-angular-rails.herokuapp.com/"/>
+        <parameter name="employeesUrl" value="http://cafetownsend-angular-rails.herokuapp.com/employees"/>
+        <parameter name="employeesAddUrl" value="http://cafetownsend-angular-rails.herokuapp.com/employees/new"/>
+        <!-- parameters employee details -->
+        <parameter name="employeeNameDetails" value="Fabio Add"/>
+        <!-- parameters add employee -->
+        <parameter name="employeeFirstNameAdd" value="Fabio"/>
+        <parameter name="employeeLastNameAdd" value="Add"/>
+        <parameter name="employeeStartDateAdd" value="1999-10-10"/>
+        <parameter name="employeeEmailAdd" value="fabio.add@gmail.com"/>
+        <!-- parameters delete employee -->
+        <parameter name="employeeNameDelete" value="Fabio Update"/>
+        <!-- parameters edit employee -->
+        <parameter name="employeeNameEdit" value="Fabio Add"/>
+        <parameter name="employeeFirstNameUpdate" value="Fabio"/>
+        <parameter name="employeeLastNameUpdate" value="Update"/>
+        <parameter name="employeeStartDateUpdate" value="1999-10-11"/>
+        <parameter name="employeeEmailUpdate" value="fabio.update@gmail.com"/>
+        <!-- classes -->
+        <classes>
+            <class name="employee.test.EmployeeAddTest"/>
+            <class name="employee.test.EmployeeDetailsTest"/>
+            <class name="employee.test.EmployeeEditTest"/>
+            <class name="employee.test.EmployeeDeleteTest"/>
+        </classes>
+   </test>
+    <test name="Testing logout feature">
+        <!-- parameters  -->
+        <parameter name="validUsername" value="Luke"/>
+        <parameter name="validPassword" value="Skywalker"/>
+        <parameter name="loginUrl" value="http://cafetownsend-angular-rails.herokuapp.com/login"/>
+        <parameter name="webAppUrl" value="http://cafetownsend-angular-rails.herokuapp.com/"/>
+        <parameter name="loggedUrl" value="http://cafetownsend-angular-rails.herokuapp.com/employees"/>
+        <!-- classes -->
+        <classes>
+            <class name="logout.test.LogoutTest"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2018-10-07T22:12:38Z" name="Automation cafe townsend web app" finished-at="2018-10-07T22:15:19Z" duration-ms="161874">
+    <groups>
+    </groups>
+    <test started-at="2018-10-07T22:12:38Z" name="Testing login feature" finished-at="2018-10-07T22:13:49Z" duration-ms="71438">
+      <class name="login.test.LoginValidUsernameNoPasswordTest">
+        <test-method signature="loginWithUsername(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:login.test.LoginValidUsernameNoPasswordTest@34e9fd99]" started-at="2018-10-07T22:13:34Z" name="loginWithUsername" finished-at="2018-10-07T22:13:42Z" duration-ms="7473" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Luke]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://cafetownsend-angular-rails.herokuapp.com/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[http://cafetownsend-angular-rails.herokuapp.com/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithUsername -->
+      </class> <!-- login.test.LoginValidUsernameNoPasswordTest -->
+      <class name="login.test.LoginInvalidUsernameNoPasswordTest">
+        <test-method signature="loginWithInvalidUsernameNoPassword(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:login.test.LoginInvalidUsernameNoPasswordTest@c730b35]" started-at="2018-10-07T22:12:48Z" name="loginWithInvalidUsernameNoPassword" finished-at="2018-10-07T22:12:56Z" duration-ms="8176" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mike]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://cafetownsend-angular-rails.herokuapp.com/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[http://cafetownsend-angular-rails.herokuapp.com/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalidUsernameNoPassword -->
+      </class> <!-- login.test.LoginInvalidUsernameNoPasswordTest -->
+      <class name="login.test.LoginInvalidUsernamePasswordTest">
+        <test-method signature="loginWithInvalidUsernamePassword(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:login.test.LoginInvalidUsernamePasswordTest@206a70ef]" started-at="2018-10-07T22:12:56Z" name="loginWithInvalidUsernamePassword" finished-at="2018-10-07T22:13:04Z" duration-ms="7528" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mike]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Lander]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[http://cafetownsend-angular-rails.herokuapp.com/]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[http://cafetownsend-angular-rails.herokuapp.com/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalidUsernamePassword -->
+      </class> <!-- login.test.LoginInvalidUsernamePasswordTest -->
+      <class name="login.test.LoginValidPasswordNoUsernameTest">
+        <test-method signature="loginWithValidPasswordWithoutUsername(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:login.test.LoginValidPasswordNoUsernameTest@36ebc363]" started-at="2018-10-07T22:13:19Z" name="loginWithValidPasswordWithoutUsername" finished-at="2018-10-07T22:13:27Z" duration-ms="7697" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Skywalker]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://cafetownsend-angular-rails.herokuapp.com/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[http://cafetownsend-angular-rails.herokuapp.com/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidPasswordWithoutUsername -->
+      </class> <!-- login.test.LoginValidPasswordNoUsernameTest -->
+      <class name="login.test.LoginInvalidUsernameValidPasswordTest">
+        <test-method signature="loginWithInvalidUsernameValidPassword(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:login.test.LoginInvalidUsernameValidPasswordTest@292b08d6]" started-at="2018-10-07T22:13:04Z" name="loginWithInvalidUsernameValidPassword" finished-at="2018-10-07T22:13:12Z" duration-ms="8104" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mike]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Skywalker]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[http://cafetownsend-angular-rails.herokuapp.com/]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[http://cafetownsend-angular-rails.herokuapp.com/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalidUsernameValidPassword -->
+      </class> <!-- login.test.LoginInvalidUsernameValidPasswordTest -->
+      <class name="login.test.LoginValidUsernamePasswordTest">
+        <test-method signature="loginWithValidUsernamePassword(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:login.test.LoginValidUsernamePasswordTest@3c41ed1d]" started-at="2018-10-07T22:13:42Z" name="loginWithValidUsernamePassword" finished-at="2018-10-07T22:13:49Z" duration-ms="7307" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Luke]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Skywalker]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[http://cafetownsend-angular-rails.herokuapp.com/]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[http://cafetownsend-angular-rails.herokuapp.com/employees]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidUsernamePassword -->
+      </class> <!-- login.test.LoginValidUsernamePasswordTest -->
+      <class name="login.test.LoginInvalidPasswordNoUsernameTest">
+        <test-method signature="loginWithInvalidPasswordNoUsername(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:login.test.LoginInvalidPasswordNoUsernameTest@3c46e67a]" started-at="2018-10-07T22:12:38Z" name="loginWithInvalidPasswordNoUsername" finished-at="2018-10-07T22:12:48Z" duration-ms="10463" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Lander]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://cafetownsend-angular-rails.herokuapp.com/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[http://cafetownsend-angular-rails.herokuapp.com/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalidPasswordNoUsername -->
+      </class> <!-- login.test.LoginInvalidPasswordNoUsernameTest -->
+      <class name="login.test.LoginValidUsernameInvalidPasswordTest">
+        <test-method signature="loginWithValidUsernameInvalidPassword(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:login.test.LoginValidUsernameInvalidPasswordTest@45752059]" started-at="2018-10-07T22:13:27Z" name="loginWithValidUsernameInvalidPassword" finished-at="2018-10-07T22:13:34Z" duration-ms="7325" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Luke]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Lander]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[http://cafetownsend-angular-rails.herokuapp.com/]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[http://cafetownsend-angular-rails.herokuapp.com/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidUsernameInvalidPassword -->
+      </class> <!-- login.test.LoginValidUsernameInvalidPasswordTest -->
+      <class name="login.test.LoginNoUsernamePasswordTest">
+        <test-method signature="LoginWithoutUsernamePasswordTest(java.lang.String, java.lang.String)[pri:0, instance:login.test.LoginNoUsernamePasswordTest@22555ebf]" started-at="2018-10-07T22:13:12Z" name="LoginWithoutUsernamePasswordTest" finished-at="2018-10-07T22:13:19Z" duration-ms="7334" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://cafetownsend-angular-rails.herokuapp.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://cafetownsend-angular-rails.herokuapp.com/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithoutUsernamePasswordTest -->
+      </class> <!-- login.test.LoginNoUsernamePasswordTest -->
+    </test> <!-- Testing login feature -->
+    <test started-at="2018-10-07T22:13:49Z" name="Testing employee feature" finished-at="2018-10-07T22:15:12Z" duration-ms="82426">
+      <class name="employee.test.EmployeeDeleteTest">
+        <test-method signature="employeeDelete(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:employee.test.EmployeeDeleteTest@198b6731]" started-at="2018-10-07T22:14:35Z" name="employeeDelete" finished-at="2018-10-07T22:15:12Z" duration-ms="36619" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Luke]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Skywalker]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[http://cafetownsend-angular-rails.herokuapp.com/]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[http://cafetownsend-angular-rails.herokuapp.com/employees]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Fabio Update]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- employeeDelete -->
+      </class> <!-- employee.test.EmployeeDeleteTest -->
+      <class name="employee.test.EmployeeAddTest">
+        <test-method signature="employeeAdd(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:employee.test.EmployeeAddTest@15de0b3c]" started-at="2018-10-07T22:13:49Z" name="employeeAdd" finished-at="2018-10-07T22:14:06Z" duration-ms="17108" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Luke]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Skywalker]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[http://cafetownsend-angular-rails.herokuapp.com/]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[http://cafetownsend-angular-rails.herokuapp.com/employees]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Fabio]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Add]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1999-10-10]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[fabio.add@gmail.com]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[http://cafetownsend-angular-rails.herokuapp.com/employees/new]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- employeeAdd -->
+      </class> <!-- employee.test.EmployeeAddTest -->
+      <class name="employee.test.EmployeeDetailsTest">
+        <test-method signature="employeeDetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:employee.test.EmployeeDetailsTest@489115ef]" started-at="2018-10-07T22:14:06Z" name="employeeDetails" finished-at="2018-10-07T22:14:18Z" duration-ms="12034" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Luke]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Skywalker]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[http://cafetownsend-angular-rails.herokuapp.com/]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[http://cafetownsend-angular-rails.herokuapp.com/employees]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Fabio Add]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- employeeDetails -->
+      </class> <!-- employee.test.EmployeeDetailsTest -->
+      <class name="employee.test.EmployeeEditTest">
+        <test-method signature="employeeEdit(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:employee.test.EmployeeEditTest@3857f613]" started-at="2018-10-07T22:14:18Z" name="employeeEdit" finished-at="2018-10-07T22:14:35Z" duration-ms="16662" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Luke]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Skywalker]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[http://cafetownsend-angular-rails.herokuapp.com/]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[http://cafetownsend-angular-rails.herokuapp.com/employees]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Fabio]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Update]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1999-10-11]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[fabio.update@gmail.com]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Fabio Add]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- employeeEdit -->
+      </class> <!-- employee.test.EmployeeEditTest -->
+    </test> <!-- Testing employee feature -->
+    <test started-at="2018-10-07T22:15:12Z" name="Testing logout feature" finished-at="2018-10-07T22:15:19Z" duration-ms="7715">
+      <class name="logout.test.LogoutTest">
+        <test-method signature="logoutWebApp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:logout.test.LogoutTest@bcec361]" started-at="2018-10-07T22:15:12Z" name="logoutWebApp" finished-at="2018-10-07T22:15:19Z" duration-ms="7714" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Luke]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Skywalker]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[http://cafetownsend-angular-rails.herokuapp.com/]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[http://cafetownsend-angular-rails.herokuapp.com/employees]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://cafetownsend-angular-rails.herokuapp.com/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutWebApp -->
+      </class> <!-- logout.test.LogoutTest -->
+    </test> <!-- Testing logout feature -->
+  </suite> <!-- Automation cafe townsend web app -->
+</testng-results>

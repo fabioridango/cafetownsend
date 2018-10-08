@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Automation_cafe_townsend_web_app" class="navigator-link">
+              <span class="suite-name border-passed">Automation cafe townsend web app</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Automation_cafe_townsend_web_app" class="navigator-link ">
+                    <span>testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Automation_cafe_townsend_web_app" class="navigator-link ">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Automation_cafe_townsend_web_app" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Automation_cafe_townsend_web_app" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Automation_cafe_townsend_web_app" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Automation_cafe_townsend_web_app" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Automation_cafe_townsend_web_app" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">14 methods,   14 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Automation_cafe_townsend_web_app" class="hide-methods passed suite-Automation_cafe_townsend_web_app"> (hide)</a> <!-- hide-methods passed suite-Automation_cafe_townsend_web_app -->
+                      <a href="#" panel-name="suite-Automation_cafe_townsend_web_app" class="show-methods passed suite-Automation_cafe_townsend_web_app"> (show)</a> <!-- show-methods passed suite-Automation_cafe_townsend_web_app -->
+                    </span>
+                    <div class="method-list-content passed suite-Automation_cafe_townsend_web_app">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_cafe_townsend_web_app" title="login.test.LoginNoUsernamePasswordTest" class="method navigator-link" hash-for-method="LoginWithoutUsernamePasswordTest(http://cafetownsend-angular-rails.herokuapp.com/, http://cafetownsend-angular-rails.herokuapp.com/lo...)">LoginWithoutUsernamePasswordTest(http://cafetownsend-angular-rails.herokuapp.com/, http://cafetownsend-angular-rails.herokuapp.com/lo...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_cafe_townsend_web_app" title="employee.test.EmployeeAddTest" class="method navigator-link" hash-for-method="employeeAdd(Luke, Skywalker, http://cafetownsend-angular-rails.herokuapp.com/, http://cafetownsend-angular-rails...)">employeeAdd(Luke, Skywalker, http://cafetownsend-angular-rails.herokuapp.com/, http://cafetownsend-angular-rails...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_cafe_townsend_web_app" title="employee.test.EmployeeDeleteTest" class="method navigator-link" hash-for-method="employeeDelete(Luke, Skywalker, http://cafetownsend-angular-rails.herokuapp.com/, http://cafetownsend-angular-rails...)">employeeDelete(Luke, Skywalker, http://cafetownsend-angular-rails.herokuapp.com/, http://cafetownsend-angular-rails...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_cafe_townsend_web_app" title="employee.test.EmployeeDetailsTest" class="method navigator-link" hash-for-method="employeeDetails(Luke, Skywalker, http://cafetownsend-angular-rails.herokuapp.com/, http://cafetownsend-angular-rails...)">employeeDetails(Luke, Skywalker, http://cafetownsend-angular-rails.herokuapp.com/, http://cafetownsend-angular-rails...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_cafe_townsend_web_app" title="employee.test.EmployeeEditTest" class="method navigator-link" hash-for-method="employeeEdit(Luke, Skywalker, http://cafetownsend-angular-rails.herokuapp.com/, http://cafetownsend-angular-rails...)">employeeEdit(Luke, Skywalker, http://cafetownsend-angular-rails.herokuapp.com/, http://cafetownsend-angular-rails...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_cafe_townsend_web_app" title="login.test.LoginInvalidPasswordNoUsernameTest" class="method navigator-link" hash-for-method="loginWithInvalidPasswordNoUsername(Lander, http://cafetownsend-angular-rails.herokuapp.com/, http://cafetownsend-angular-rails.herokuap...)">loginWithInvalidPasswordNoUsername(Lander, http://cafetownsend-angular-rails.herokuapp.com/, http://cafetownsend-angular-rails.herokuap...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_cafe_townsend_web_app" title="login.test.LoginInvalidUsernameNoPasswordTest" class="method navigator-link" hash-for-method="loginWithInvalidUsernameNoPassword(Mike, http://cafetownsend-angular-rails.herokuapp.com/, http://cafetownsend-angular-rails.herokuapp....)">loginWithInvalidUsernameNoPassword(Mike, http://cafetownsend-angular-rails.herokuapp.com/, http://cafetownsend-angular-rails.herokuapp....)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_cafe_townsend_web_app" title="login.test.LoginInvalidUsernamePasswordTest" class="method navigator-link" hash-for-method="loginWithInvalidUsernamePassword(Mike, Lander, http://cafetownsend-angular-rails.herokuapp.com/, http://cafetownsend-angular-rails.he...)">loginWithInvalidUsernamePassword(Mike, Lander, http://cafetownsend-angular-rails.herokuapp.com/, http://cafetownsend-angular-rails.he...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_cafe_townsend_web_app" title="login.test.LoginInvalidUsernameValidPasswordTest" class="method navigator-link" hash-for-method="loginWithInvalidUsernameValidPassword(Mike, Skywalker, http://cafetownsend-angular-rails.herokuapp.com/, http://cafetownsend-angular-rails...)">loginWithInvalidUsernameValidPassword(Mike, Skywalker, http://cafetownsend-angular-rails.herokuapp.com/, http://cafetownsend-angular-rails...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_cafe_townsend_web_app" title="login.test.LoginValidUsernameNoPasswordTest" class="method navigator-link" hash-for-method="loginWithUsername(Luke, http://cafetownsend-angular-rails.herokuapp.com/, http://cafetownsend-angular-rails.herokuapp....)">loginWithUsername(Luke, http://cafetownsend-angular-rails.herokuapp.com/, http://cafetownsend-angular-rails.herokuapp....)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_cafe_townsend_web_app" title="login.test.LoginValidPasswordNoUsernameTest" class="method navigator-link" hash-for-method="loginWithValidPasswordWithoutUsername(Skywalker, http://cafetownsend-angular-rails.herokuapp.com/, http://cafetownsend-angular-rails.herok...)">loginWithValidPasswordWithoutUsername(Skywalker, http://cafetownsend-angular-rails.herokuapp.com/, http://cafetownsend-angular-rails.herok...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_cafe_townsend_web_app" title="login.test.LoginValidUsernameInvalidPasswordTest" class="method navigator-link" hash-for-method="loginWithValidUsernameInvalidPassword(Luke, Lander, http://cafetownsend-angular-rails.herokuapp.com/, http://cafetownsend-angular-rails.he...)">loginWithValidUsernameInvalidPassword(Luke, Lander, http://cafetownsend-angular-rails.herokuapp.com/, http://cafetownsend-angular-rails.he...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_cafe_townsend_web_app" title="login.test.LoginValidUsernamePasswordTest" class="method navigator-link" hash-for-method="loginWithValidUsernamePassword(Luke, Skywalker, http://cafetownsend-angular-rails.herokuapp.com/, http://cafetownsend-angular-rails...)">loginWithValidUsernamePassword(Luke, Skywalker, http://cafetownsend-angular-rails.herokuapp.com/, http://cafetownsend-angular-rails...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_cafe_townsend_web_app" title="logout.test.LogoutTest" class="method navigator-link" hash-for-method="logoutWebApp(Luke, Skywalker, http://cafetownsend-angular-rails.herokuapp.com/, http://cafetownsend-angular-rails...)">logoutWebApp(Luke, Skywalker, http://cafetownsend-angular-rails.herokuapp.com/, http://cafetownsend-angular-rails...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Automation_cafe_townsend_web_app -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Automation_cafe_townsend_web_app" class="panel Automation_cafe_townsend_web_app">
+          <div class="suite-Automation_cafe_townsend_web_app-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">login.test.LoginValidUsernameNoPasswordTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginWithUsername(Luke, http://cafetownsend-angular-rails.herokuapp.com/, http://cafetownsend-angular-rails.herokuapp....)">
+                  </a> <!-- loginWithUsername(Luke, http://cafetownsend-angular-rails.herokuapp.com/, http://cafetownsend-angular-rails.herokuapp....) -->
+                  <span class="method-name">loginWithUsername</span>
+                  <span class="parameters">(Luke, http://cafetownsend-angular-rails.herokuapp.com/, http://cafetownsend-angular-rails.herokuapp.com/login)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_cafe_townsend_web_app-class-passed -->
+          <div class="suite-Automation_cafe_townsend_web_app-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">employee.test.EmployeeAddTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="employeeAdd(Luke, Skywalker, http://cafetownsend-angular-rails.herokuapp.com/, http://cafetownsend-angular-rails...)">
+                  </a> <!-- employeeAdd(Luke, Skywalker, http://cafetownsend-angular-rails.herokuapp.com/, http://cafetownsend-angular-rails...) -->
+                  <span class="method-name">employeeAdd</span>
+                  <span class="parameters">(Luke, Skywalker, http://cafetownsend-angular-rails.herokuapp.com/, http://cafetownsend-angular-rails.herokuapp.com/employees, Fabio, Add, 1999-10-10, fabio.add@gmail.com, http://cafetownsend-angular-rails.herokuapp.com/employees/new)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_cafe_townsend_web_app-class-passed -->
+          <div class="suite-Automation_cafe_townsend_web_app-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">login.test.LoginInvalidUsernameNoPasswordTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginWithInvalidUsernameNoPassword(Mike, http://cafetownsend-angular-rails.herokuapp.com/, http://cafetownsend-angular-rails.herokuapp....)">
+                  </a> <!-- loginWithInvalidUsernameNoPassword(Mike, http://cafetownsend-angular-rails.herokuapp.com/, http://cafetownsend-angular-rails.herokuapp....) -->
+                  <span class="method-name">loginWithInvalidUsernameNoPassword</span>
+                  <span class="parameters">(Mike, http://cafetownsend-angular-rails.herokuapp.com/, http://cafetownsend-angular-rails.herokuapp.com/login)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_cafe_townsend_web_app-class-passed -->
+          <div class="suite-Automation_cafe_townsend_web_app-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">employee.test.EmployeeDetailsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="employeeDetails(Luke, Skywalker, http://cafetownsend-angular-rails.herokuapp.com/, http://cafetownsend-angular-rails...)">
+                  </a> <!-- employeeDetails(Luke, Skywalker, http://cafetownsend-angular-rails.herokuapp.com/, http://cafetownsend-angular-rails...) -->
+                  <span class="method-name">employeeDetails</span>
+                  <span class="parameters">(Luke, Skywalker, http://cafetownsend-angular-rails.herokuapp.com/, http://cafetownsend-angular-rails.herokuapp.com/employees, Fabio Add)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_cafe_townsend_web_app-class-passed -->
+          <div class="suite-Automation_cafe_townsend_web_app-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">login.test.LoginInvalidUsernamePasswordTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginWithInvalidUsernamePassword(Mike, Lander, http://cafetownsend-angular-rails.herokuapp.com/, http://cafetownsend-angular-rails.he...)">
+                  </a> <!-- loginWithInvalidUsernamePassword(Mike, Lander, http://cafetownsend-angular-rails.herokuapp.com/, http://cafetownsend-angular-rails.he...) -->
+                  <span class="method-name">loginWithInvalidUsernamePassword</span>
+                  <span class="parameters">(Mike, Lander, http://cafetownsend-angular-rails.herokuapp.com/, http://cafetownsend-angular-rails.herokuapp.com/login)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_cafe_townsend_web_app-class-passed -->
+          <div class="suite-Automation_cafe_townsend_web_app-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">login.test.LoginInvalidPasswordNoUsernameTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginWithInvalidPasswordNoUsername(Lander, http://cafetownsend-angular-rails.herokuapp.com/, http://cafetownsend-angular-rails.herokuap...)">
+                  </a> <!-- loginWithInvalidPasswordNoUsername(Lander, http://cafetownsend-angular-rails.herokuapp.com/, http://cafetownsend-angular-rails.herokuap...) -->
+                  <span class="method-name">loginWithInvalidPasswordNoUsername</span>
+                  <span class="parameters">(Lander, http://cafetownsend-angular-rails.herokuapp.com/, http://cafetownsend-angular-rails.herokuapp.com/login)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_cafe_townsend_web_app-class-passed -->
+          <div class="suite-Automation_cafe_townsend_web_app-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">employee.test.EmployeeDeleteTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="employeeDelete(Luke, Skywalker, http://cafetownsend-angular-rails.herokuapp.com/, http://cafetownsend-angular-rails...)">
+                  </a> <!-- employeeDelete(Luke, Skywalker, http://cafetownsend-angular-rails.herokuapp.com/, http://cafetownsend-angular-rails...) -->
+                  <span class="method-name">employeeDelete</span>
+                  <span class="parameters">(Luke, Skywalker, http://cafetownsend-angular-rails.herokuapp.com/, http://cafetownsend-angular-rails.herokuapp.com/employees, Fabio Update)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_cafe_townsend_web_app-class-passed -->
+          <div class="suite-Automation_cafe_townsend_web_app-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">login.test.LoginValidPasswordNoUsernameTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginWithValidPasswordWithoutUsername(Skywalker, http://cafetownsend-angular-rails.herokuapp.com/, http://cafetownsend-angular-rails.herok...)">
+                  </a> <!-- loginWithValidPasswordWithoutUsername(Skywalker, http://cafetownsend-angular-rails.herokuapp.com/, http://cafetownsend-angular-rails.herok...) -->
+                  <span class="method-name">loginWithValidPasswordWithoutUsername</span>
+                  <span class="parameters">(Skywalker, http://cafetownsend-angular-rails.herokuapp.com/, http://cafetownsend-angular-rails.herokuapp.com/login)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_cafe_townsend_web_app-class-passed -->
+          <div class="suite-Automation_cafe_townsend_web_app-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">login.test.LoginInvalidUsernameValidPasswordTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginWithInvalidUsernameValidPassword(Mike, Skywalker, http://cafetownsend-angular-rails.herokuapp.com/, http://cafetownsend-angular-rails...)">
+                  </a> <!-- loginWithInvalidUsernameValidPassword(Mike, Skywalker, http://cafetownsend-angular-rails.herokuapp.com/, http://cafetownsend-angular-rails...) -->
+                  <span class="method-name">loginWithInvalidUsernameValidPassword</span>
+                  <span class="parameters">(Mike, Skywalker, http://cafetownsend-angular-rails.herokuapp.com/, http://cafetownsend-angular-rails.herokuapp.com/login)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_cafe_townsend_web_app-class-passed -->
+          <div class="suite-Automation_cafe_townsend_web_app-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">login.test.LoginNoUsernamePasswordTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginWithoutUsernamePasswordTest(http://cafetownsend-angular-rails.herokuapp.com/, http://cafetownsend-angular-rails.herokuapp.com/lo...)">
+                  </a> <!-- LoginWithoutUsernamePasswordTest(http://cafetownsend-angular-rails.herokuapp.com/, http://cafetownsend-angular-rails.herokuapp.com/lo...) -->
+                  <span class="method-name">LoginWithoutUsernamePasswordTest</span>
+                  <span class="parameters">(http://cafetownsend-angular-rails.herokuapp.com/, http://cafetownsend-angular-rails.herokuapp.com/login)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_cafe_townsend_web_app-class-passed -->
+          <div class="suite-Automation_cafe_townsend_web_app-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">employee.test.EmployeeEditTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="employeeEdit(Luke, Skywalker, http://cafetownsend-angular-rails.herokuapp.com/, http://cafetownsend-angular-rails...)">
+                  </a> <!-- employeeEdit(Luke, Skywalker, http://cafetownsend-angular-rails.herokuapp.com/, http://cafetownsend-angular-rails...) -->
+                  <span class="method-name">employeeEdit</span>
+                  <span class="parameters">(Luke, Skywalker, http://cafetownsend-angular-rails.herokuapp.com/, http://cafetownsend-angular-rails.herokuapp.com/employees, Fabio, Update, 1999-10-11, fabio.update@gmail.com, Fabio Add)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_cafe_townsend_web_app-class-passed -->
+          <div class="suite-Automation_cafe_townsend_web_app-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">login.test.LoginValidUsernameInvalidPasswordTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginWithValidUsernameInvalidPassword(Luke, Lander, http://cafetownsend-angular-rails.herokuapp.com/, http://cafetownsend-angular-rails.he...)">
+                  </a> <!-- loginWithValidUsernameInvalidPassword(Luke, Lander, http://cafetownsend-angular-rails.herokuapp.com/, http://cafetownsend-angular-rails.he...) -->
+                  <span class="method-name">loginWithValidUsernameInvalidPassword</span>
+                  <span class="parameters">(Luke, Lander, http://cafetownsend-angular-rails.herokuapp.com/, http://cafetownsend-angular-rails.herokuapp.com/login)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_cafe_townsend_web_app-class-passed -->
+          <div class="suite-Automation_cafe_townsend_web_app-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">logout.test.LogoutTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="logoutWebApp(Luke, Skywalker, http://cafetownsend-angular-rails.herokuapp.com/, http://cafetownsend-angular-rails...)">
+                  </a> <!-- logoutWebApp(Luke, Skywalker, http://cafetownsend-angular-rails.herokuapp.com/, http://cafetownsend-angular-rails...) -->
+                  <span class="method-name">logoutWebApp</span>
+                  <span class="parameters">(Luke, Skywalker, http://cafetownsend-angular-rails.herokuapp.com/, http://cafetownsend-angular-rails.herokuapp.com/employees, http://cafetownsend-angular-rails.herokuapp.com/login)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_cafe_townsend_web_app-class-passed -->
+          <div class="suite-Automation_cafe_townsend_web_app-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">login.test.LoginValidUsernamePasswordTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginWithValidUsernamePassword(Luke, Skywalker, http://cafetownsend-angular-rails.herokuapp.com/, http://cafetownsend-angular-rails...)">
+                  </a> <!-- loginWithValidUsernamePassword(Luke, Skywalker, http://cafetownsend-angular-rails.herokuapp.com/, http://cafetownsend-angular-rails...) -->
+                  <span class="method-name">loginWithValidUsernamePassword</span>
+                  <span class="parameters">(Luke, Skywalker, http://cafetownsend-angular-rails.herokuapp.com/, http://cafetownsend-angular-rails.herokuapp.com/employees)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_cafe_townsend_web_app-class-passed -->
+        </div> <!-- panel Automation_cafe_townsend_web_app -->
+        <div panel-name="test-xml-Automation_cafe_townsend_web_app" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/fabio/IdeaProjects/cafetownsend/src/main/resources/testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Automation cafe townsend web app&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Testing login feature&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;webAppUrl&quot; value=&quot;http://cafetownsend-angular-rails.herokuapp.com/&quot;/&gt;
+    &lt;parameter name=&quot;employeesUrl&quot; value=&quot;http://cafetownsend-angular-rails.herokuapp.com/employees&quot;/&gt;
+    &lt;parameter name=&quot;invalidUsername&quot; value=&quot;Mike&quot;/&gt;
+    &lt;parameter name=&quot;loginUrl&quot; value=&quot;http://cafetownsend-angular-rails.herokuapp.com/login&quot;/&gt;
+    &lt;parameter name=&quot;invalidPassword&quot; value=&quot;Lander&quot;/&gt;
+    &lt;parameter name=&quot;validPassword&quot; value=&quot;Skywalker&quot;/&gt;
+    &lt;parameter name=&quot;loggedUrl&quot; value=&quot;http://cafetownsend-angular-rails.herokuapp.com/employees&quot;/&gt;
+    &lt;parameter name=&quot;validUsername&quot; value=&quot;Luke&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;login.test.LoginInvalidPasswordNoUsernameTest&quot;/&gt;
+      &lt;class name=&quot;login.test.LoginInvalidUsernameNoPasswordTest&quot;/&gt;
+      &lt;class name=&quot;login.test.LoginInvalidUsernamePasswordTest&quot;/&gt;
+      &lt;class name=&quot;login.test.LoginInvalidUsernameValidPasswordTest&quot;/&gt;
+      &lt;class name=&quot;login.test.LoginNoUsernamePasswordTest&quot;/&gt;
+      &lt;class name=&quot;login.test.LoginValidPasswordNoUsernameTest&quot;/&gt;
+      &lt;class name=&quot;login.test.LoginValidUsernameInvalidPasswordTest&quot;/&gt;
+      &lt;class name=&quot;login.test.LoginValidUsernameNoPasswordTest&quot;/&gt;
+      &lt;class name=&quot;login.test.LoginValidUsernamePasswordTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Testing login feature --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Testing employee feature&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;employeesUrl&quot; value=&quot;http://cafetownsend-angular-rails.herokuapp.com/employees&quot;/&gt;
+    &lt;parameter name=&quot;employeeStartDateAdd&quot; value=&quot;1999-10-10&quot;/&gt;
+    &lt;parameter name=&quot;employeeFirstNameAdd&quot; value=&quot;Fabio&quot;/&gt;
+    &lt;parameter name=&quot;employeeEmailAdd&quot; value=&quot;fabio.add@gmail.com&quot;/&gt;
+    &lt;parameter name=&quot;employeeNameEdit&quot; value=&quot;Fabio Add&quot;/&gt;
+    &lt;parameter name=&quot;webAppUrl&quot; value=&quot;http://cafetownsend-angular-rails.herokuapp.com/&quot;/&gt;
+    &lt;parameter name=&quot;employeesAddUrl&quot; value=&quot;http://cafetownsend-angular-rails.herokuapp.com/employees/new&quot;/&gt;
+    &lt;parameter name=&quot;employeeNameDetails&quot; value=&quot;Fabio Add&quot;/&gt;
+    &lt;parameter name=&quot;loginUrl&quot; value=&quot;http://cafetownsend-angular-rails.herokuapp.com/login&quot;/&gt;
+    &lt;parameter name=&quot;employeeFirstNameUpdate&quot; value=&quot;Fabio&quot;/&gt;
+    &lt;parameter name=&quot;employeeLastNameUpdate&quot; value=&quot;Update&quot;/&gt;
+    &lt;parameter name=&quot;employeeNameDelete&quot; value=&quot;Fabio Update&quot;/&gt;
+    &lt;parameter name=&quot;validPassword&quot; value=&quot;Skywalker&quot;/&gt;
+    &lt;parameter name=&quot;employeeStartDateUpdate&quot; value=&quot;1999-10-11&quot;/&gt;
+    &lt;parameter name=&quot;employeeLastNameAdd&quot; value=&quot;Add&quot;/&gt;
+    &lt;parameter name=&quot;validUsername&quot; value=&quot;Luke&quot;/&gt;
+    &lt;parameter name=&quot;employeeEmailUpdate&quot; value=&quot;fabio.update@gmail.com&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;employee.test.EmployeeAddTest&quot;/&gt;
+      &lt;class name=&quot;employee.test.EmployeeDetailsTest&quot;/&gt;
+      &lt;class name=&quot;employee.test.EmployeeEditTest&quot;/&gt;
+      &lt;class name=&quot;employee.test.EmployeeDeleteTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Testing employee feature --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Testing logout feature&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;webAppUrl&quot; value=&quot;http://cafetownsend-angular-rails.herokuapp.com/&quot;/&gt;
+    &lt;parameter name=&quot;loginUrl&quot; value=&quot;http://cafetownsend-angular-rails.herokuapp.com/login&quot;/&gt;
+    &lt;parameter name=&quot;validPassword&quot; value=&quot;Skywalker&quot;/&gt;
+    &lt;parameter name=&quot;loggedUrl&quot; value=&quot;http://cafetownsend-angular-rails.herokuapp.com/employees&quot;/&gt;
+    &lt;parameter name=&quot;validUsername&quot; value=&quot;Luke&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;logout.test.LogoutTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Testing logout feature --&gt;
+&lt;/suite&gt; &lt;!-- Automation cafe townsend web app --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Automation_cafe_townsend_web_app" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Automation cafe townsend web app</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Testing login feature (9 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Testing employee feature (4 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Testing logout feature (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Automation_cafe_townsend_web_app" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Automation cafe townsend web app</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Automation_cafe_townsend_web_app" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Automation cafe townsend web app</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Automation_cafe_townsend_web_app');
+function tableData_Automation_cafe_townsend_web_app() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(14);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'employeeDelete')
+data.setCell(0, 2, 'employee.test.EmployeeDeleteTest')
+data.setCell(0, 3, 36619);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'employeeAdd')
+data.setCell(1, 2, 'employee.test.EmployeeAddTest')
+data.setCell(1, 3, 17108);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'employeeEdit')
+data.setCell(2, 2, 'employee.test.EmployeeEditTest')
+data.setCell(2, 3, 16662);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'employeeDetails')
+data.setCell(3, 2, 'employee.test.EmployeeDetailsTest')
+data.setCell(3, 3, 12034);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'loginWithInvalidPasswordNoUsername')
+data.setCell(4, 2, 'login.test.LoginInvalidPasswordNoUsernameTest')
+data.setCell(4, 3, 10463);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'loginWithInvalidUsernameNoPassword')
+data.setCell(5, 2, 'login.test.LoginInvalidUsernameNoPasswordTest')
+data.setCell(5, 3, 8176);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'loginWithInvalidUsernameValidPassword')
+data.setCell(6, 2, 'login.test.LoginInvalidUsernameValidPasswordTest')
+data.setCell(6, 3, 8104);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'logoutWebApp')
+data.setCell(7, 2, 'logout.test.LogoutTest')
+data.setCell(7, 3, 7714);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'loginWithValidPasswordWithoutUsername')
+data.setCell(8, 2, 'login.test.LoginValidPasswordNoUsernameTest')
+data.setCell(8, 3, 7697);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'loginWithInvalidUsernamePassword')
+data.setCell(9, 2, 'login.test.LoginInvalidUsernamePasswordTest')
+data.setCell(9, 3, 7528);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'loginWithUsername')
+data.setCell(10, 2, 'login.test.LoginValidUsernameNoPasswordTest')
+data.setCell(10, 3, 7473);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'LoginWithoutUsernamePasswordTest')
+data.setCell(11, 2, 'login.test.LoginNoUsernamePasswordTest')
+data.setCell(11, 3, 7334);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'loginWithValidUsernameInvalidPassword')
+data.setCell(12, 2, 'login.test.LoginValidUsernameInvalidPasswordTest')
+data.setCell(12, 3, 7325);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'loginWithValidUsernamePassword')
+data.setCell(13, 2, 'login.test.LoginValidUsernamePasswordTest')
+data.setCell(13, 3, 7307);
+window.suiteTableData['Automation_cafe_townsend_web_app']= { tableData: data, tableDiv: 'times-div-Automation_cafe_townsend_web_app'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Automation_cafe_townsend_web_app">
+              </div> <!-- times-div-Automation_cafe_townsend_web_app -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Automation_cafe_townsend_web_app" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Automation cafe townsend web app</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Automation_cafe_townsend_web_app" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Automation_cafe_townsend_web_app" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">login.test.LoginInvalidPasswordNoUsernameTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginWithInvalidPasswordNoUsername(Lander, http://cafetownsend-angular-rails.herokuapp.com/, http://cafetownsend-angular-rails.herokuap...)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">login.test.LoginInvalidUsernameNoPasswordTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginWithInvalidUsernameNoPassword(Mike, http://cafetownsend-angular-rails.herokuapp.com/, http://cafetownsend-angular-rails.herokuapp....)</span>
+                <span class="method-start">10467 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">login.test.LoginInvalidUsernamePasswordTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginWithInvalidUsernamePassword(Mike, Lander, http://cafetownsend-angular-rails.herokuapp.com/, http://cafetownsend-angular-rails.he...)</span>
+                <span class="method-start">18645 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">login.test.LoginInvalidUsernameValidPasswordTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginWithInvalidUsernameValidPassword(Mike, Skywalker, http://cafetownsend-angular-rails.herokuapp.com/, http://cafetownsend-angular-rails...)</span>
+                <span class="method-start">26174 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">login.test.LoginNoUsernamePasswordTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">LoginWithoutUsernamePasswordTest(http://cafetownsend-angular-rails.herokuapp.com/, http://cafetownsend-angular-rails.herokuapp.com/lo...)</span>
+                <span class="method-start">34279 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">login.test.LoginValidPasswordNoUsernameTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginWithValidPasswordWithoutUsername(Skywalker, http://cafetownsend-angular-rails.herokuapp.com/, http://cafetownsend-angular-rails.herok...)</span>
+                <span class="method-start">41614 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">login.test.LoginValidUsernameInvalidPasswordTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginWithValidUsernameInvalidPassword(Luke, Lander, http://cafetownsend-angular-rails.herokuapp.com/, http://cafetownsend-angular-rails.he...)</span>
+                <span class="method-start">49311 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">login.test.LoginValidUsernameNoPasswordTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginWithUsername(Luke, http://cafetownsend-angular-rails.herokuapp.com/, http://cafetownsend-angular-rails.herokuapp....)</span>
+                <span class="method-start">56637 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">login.test.LoginValidUsernamePasswordTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginWithValidUsernamePassword(Luke, Skywalker, http://cafetownsend-angular-rails.herokuapp.com/, http://cafetownsend-angular-rails...)</span>
+                <span class="method-start">64111 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">employee.test.EmployeeAddTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">employeeAdd(Luke, Skywalker, http://cafetownsend-angular-rails.herokuapp.com/, http://cafetownsend-angular-rails...)</span>
+                <span class="method-start">71710 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">employee.test.EmployeeDetailsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">employeeDetails(Luke, Skywalker, http://cafetownsend-angular-rails.herokuapp.com/, http://cafetownsend-angular-rails...)</span>
+                <span class="method-start">88819 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">employee.test.EmployeeEditTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">employeeEdit(Luke, Skywalker, http://cafetownsend-angular-rails.herokuapp.com/, http://cafetownsend-angular-rails...)</span>
+                <span class="method-start">100854 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">employee.test.EmployeeDeleteTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">employeeDelete(Luke, Skywalker, http://cafetownsend-angular-rails.herokuapp.com/, http://cafetownsend-angular-rails...)</span>
+                <span class="method-start">117516 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">logout.test.LogoutTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">logoutWebApp(Luke, Skywalker, http://cafetownsend-angular-rails.herokuapp.com/, http://cafetownsend-angular-rails...)</span>
+                <span class="method-start">154140 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
